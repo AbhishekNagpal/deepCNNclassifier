@@ -1,0 +1,1 @@
+from deepClassifier.config.configuartion import ConfigurationManager
