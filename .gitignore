@@ -168,3 +168,5 @@ artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-09-30-10-36-07/t
 artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-09-30-10-36-07/validation/events.out.tfevents.1696052393.Abhisheks-MacBook-Pro.local.43141.1.v2
 artifacts/training/model.h5
 artifacts/prepare_base_model/base_model_updated.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-10-08-10-55-56/train/events.out.tfevents.1696742756.Abhisheks-MacBook-Pro.local.70029.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2023-10-08-10-55-56/validation/events.out.tfevents.1696744805.Abhisheks-MacBook-Pro.local.70029.1.v2
