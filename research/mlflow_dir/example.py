@@ -74,7 +74,7 @@ if __name__ == "__main__":
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
         
-        remote_server_uri = "https://dagshub.com/c17hawke/FSDS_NOV_deepCNNClassifier.mlflow"
+        remote_server_uri = "https://dagshub.com/AbhishekNagpal/deepCNNclassifier.mlflow"
         mlflow.set_tracking_uri(remote_server_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
@@ -88,3 +88,10 @@ if __name__ == "__main__":
             mlflow.sklearn.log_model(lr, "model", registered_model_name="ElasticnetWineModel")
         else:
             mlflow.sklearn.log_model(lr, "model")
+
+'''
+MLFLOW_TRACKING_URI=https://dagshub.com/AbhishekNagpal/deepCNNclassifier.mlflow \
+MLFLOW_TRACKING_USERNAME=AbhishekNagpal \
+MLFLOW_TRACKING_PASSWORD=ee90c20a178a5244a5358d871f4ddd8b427bb562 \
+python script.py
+'''
